@@ -1,0 +1,307 @@
+
+
+/* body {
+    font-family: 'Poppins', sans-serif ;
+} */
+
+h1, h2, h3, h4, h5, h6, p, .navbar-brand {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+
+.mw_width{
+    max-width: 7000px;
+}
+/* ---------------------------------------------------------------------------- */
+
+/* Start home */
+
+
+
+.navbar-brand{
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 18px;
+    line-height:25.7143px;
+    
+}
+
+.home{
+
+    background-image: url(../images/bg.jpg);
+    background-position: center center ;
+    background-size: cover;
+}
+
+.hel_llo{
+    font-weight: 800;
+    line-height: 55px;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+
+.ani-h1{
+    font-size: 48px;
+    line-height: 85.8px;
+font-weight: 200;
+font-family: 'Montserrat', sans-serif !important;
+
+}
+
+.ani-h1::after{
+    content: " |";
+    animation-duration: 7s;
+    animation-name: typing ;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes typing {
+    2% {   content: " |";    }
+    8% {   content: " |";    }
+    10% {   content: "D|";    }
+    12% {   content: "De|";    }
+    14% {   content: "Dev|";    }
+    16% {   content: "Deve|";    }
+    18% {   content: "Devel|";    }
+    20% {   content: "Develo |";    }
+    22% {   content: "Develop|";    }
+    24% {   content: "Develope|";    }
+    26% {   content: "Developer|";    }
+    28% {   content: "Developer|";    }
+    30% {   content: "Developer.|";    }
+    32% {   content: "Developer|";    }
+    34% {   content: "Develop|";    }
+    36% {   content: "Develo|";    }
+    38% {   content: "Devel|";    }
+    40% {   content: "Deve|";    }
+    42% {   content: "Dev";    }
+    44% {   content: "De|";    }
+    46% {   content: "D|";    }
+    48% {   content: "|";    }
+    54% {   content: " |";    }
+    56% {   content: " |";    }
+    62% {   content: "De|";    }
+    64% {   content: "De|";    }
+    66% {   content: "Des|";    }
+    68% {   content: "Desi|";    }
+    70% {   content: "Desig|";    }
+    72% {   content: "Desiger|";    }
+    74% {   content: "Desiger.|";    }
+    76% {   content: "Desiger|";    }
+    78% {   content: "Desige|";    }
+    80% {   content: "Desig|";    }
+    82% {   content: "Desi|";    }
+    84% {   content: "Des|";    }
+    86% {   content: "De|";    }
+    88% {   content: "D|";    }
+    92% {   content: "|";    }
+ 
+ }
+ 
+ /* -------------------------------------------------------------------------------------------------------------------------------- */
+
+ .about{
+    padding: 100px 0px !important;
+ }
+
+.about-img{
+    width: 90%;
+}
+
+.about_me{
+    font-size: 30px;
+    line-height: 33px;
+    font-weight: 800;
+    margin: 0px 0px 5px;
+}
+
+.ui_title{
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.p_about{
+    line-height: 24px;
+    font-size: 15px;
+    color: #748182;
+}   
+
+.btn1{
+    color: #eee;
+    font-size: 13px;
+    background: #1c1c1c;
+    transition:  background-color 0.5s ;
+}
+
+.btn1:hover{
+    background-color: transparent;
+    color: black;
+}
+.btn2{
+    font-size: 13px;
+    background-color: transparent;
+    transition: 0.5s background-color;
+}
+
+.btn2:hover{
+    background-color: #1c1c1c;
+    color: #eee;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+.services h3{
+    font-weight: 900;
+    font-size: 50px;
+    position: relative;
+    display: inline-block;
+    z-index: 4;
+}
+
+ .icon{
+    font-size: 30px;
+   margin-top: 50px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background: #f4f4f4;
+    border-radius: 50%;
+    text-align: center;
+}
+/* -------------------------------------------------------------------------------------- */
+
+.client-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 15px;
+}
+
+ .client-content p {
+    word-spacing: 2px;
+}
+
+.client-content h6 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 30px 0 5px;
+}
+
+.client-content span {
+    font-size: 12px;
+    font-weight: 600;
+    color: #888;
+    margin-bottom: 30px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+.num-icon{
+    font-size: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.numbers h3 {
+    font-weight: 900;
+    padding-bottom: 15px;
+
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+.card-title{
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.card-text a{
+    text-decoration: none;
+    color: #1c1c1c;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.card-body{
+    text-align: left;
+}
+
+.a_card{
+    text-decoration: none;
+    color: #000000;
+    border-bottom: 2px solid #333;
+}
+/* ----------------------------------------------------------------------------------------- */
+
+.form input{
+    width: 80%;
+    padding:5px 20px;
+    margin: 50px 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: #000000 2px solid;
+    border-radius: 5px;
+
+}
+
+textarea{
+    width: 88%;
+    margin-left: 65px;
+    padding-bottom: 50px;
+    border: #000000 2px solid;
+border-radius: 5px;
+}
+
+.btn3{
+
+    margin-left: 65px;
+    margin-top: 20px;
+    background-color: #000000;
+    padding: 5px 40px;
+    color: #eee;
+    border-radius: 5px;
+}
+
+
+/* ------------------------------------------------------------------------------------------------ */
+
+.nav-item button {
+    color: black;
+    margin: 0 10px;
+    border-radius: 30px !important;
+    transition: all 0.3s;
+}
+
+.nav-item button.active {
+    background-color: black !important;
+    color: black;
+}
+
+.nav-item button:hover {
+    background-color: black ;
+    cursor: pointer;
+    color: black;
+}
+
+.work-item .layer {
+    background-color: rgba(0, 0, 0, 0.567) !important;
+    transition: opacity 0.5s;
+    
+}
+.work-item:hover .layer {
+    opacity: 1 !important;
+}
+
+#portfolio .work-item img
+{
+    transition: 0.5s;
+}
+#portfolio .work-item:hover img
+{
+    transform: scale(1.1);
+}
